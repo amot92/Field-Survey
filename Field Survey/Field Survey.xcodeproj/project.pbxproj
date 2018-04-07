@@ -20,6 +20,7 @@
 		AC2F092C20782ADD006F4A99 /* fieldObservationsJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F092B20782ADD006F4A99 /* fieldObservationsJSONLoader.swift */; };
 		AC2F092E20783019006F4A99 /* fieldObservationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F092D20783019006F4A99 /* fieldObservationsViewController.swift */; };
 		AC2F093020783082006F4A99 /* fieldObservationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F092F20783082006F4A99 /* fieldObservationDetailViewController.swift */; };
+		AC2F093220783A9A006F4A99 /* FieldObservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F093120783A9A006F4A99 /* FieldObservationTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		AC2F092B20782ADD006F4A99 /* fieldObservationsJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fieldObservationsJSONLoader.swift; sourceTree = "<group>"; };
 		AC2F092D20783019006F4A99 /* fieldObservationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fieldObservationsViewController.swift; sourceTree = "<group>"; };
 		AC2F092F20783082006F4A99 /* fieldObservationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fieldObservationDetailViewController.swift; sourceTree = "<group>"; };
+		AC2F093120783A9A006F4A99 /* FieldObservationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldObservationTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				AC2F08FC2077DF98006F4A99 /* Info.plist */,
 				AC2F092D20783019006F4A99 /* fieldObservationsViewController.swift */,
 				AC2F092F20783082006F4A99 /* fieldObservationDetailViewController.swift */,
+				AC2F093120783A9A006F4A99 /* FieldObservationTableViewCell.swift */,
 			);
 			path = "Field Survey";
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC2F093020783082006F4A99 /* fieldObservationDetailViewController.swift in Sources */,
+				AC2F093220783A9A006F4A99 /* FieldObservationTableViewCell.swift in Sources */,
 				AC2F092C20782ADD006F4A99 /* fieldObservationsJSONLoader.swift in Sources */,
 				AC2F08F12077DF97006F4A99 /* AppDelegate.swift in Sources */,
 				AC2F092620781E51006F4A99 /* fieldObservation.swift in Sources */,

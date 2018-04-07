@@ -30,7 +30,7 @@ class fieldObservationJSONParser {
                             let dateString = observation["date"],
                             let date = dateFormatter.date(from: dateString) {
                             
-                            if let fieldObservation = fieldObservation(classification: classification, title: title, description: description, date: dateString) {
+                            if let fieldObservation = fieldObservation(classification: classification, title: title, description: description, date: date) {
                                 fieldObservations.append(fieldObservation)
                             }
                         }

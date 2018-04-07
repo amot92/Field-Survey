@@ -12,7 +12,7 @@ class fieldObservationDetailViewController: UIViewController {
     
     var fieldObservation: fieldObservation?
     
-    var dateFormatter = DateFormatter()
+    let dateFormatter = DateFormatter()
 
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
